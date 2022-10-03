@@ -1,7 +1,7 @@
 from mycroft import MycroftSkill, intent_file_handler
 
 
-class HeadSideCough(MycroftSkill):
+class WhisperAndAngry(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
 
@@ -11,5 +11,5 @@ class HeadSideCough(MycroftSkill):
 
 
 def create_skill():
-    return HeadSideCough()
+    return WhisperAndAngry()
 
